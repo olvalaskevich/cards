@@ -1,6 +1,5 @@
 import {decksApi, DecksType} from "./decks-api.ts";
 import {AppDispatch} from "../../app/store.ts";
-import {Dispatch} from "redux";
 import {FormValues} from "./AddNewDeckForm/AddNewDeckForm.tsx";
 
 const initialState:{decks:DecksType[],searchParams:{name:string} } = {
